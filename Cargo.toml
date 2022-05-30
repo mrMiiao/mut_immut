@@ -1,6 +1,6 @@
 [package]
 name = 'mut_immut'
-version = '0.1.0'
+version = '0.2.0'
 edition = '2021'
 authors = ['Miiao']
 repository = 'https://github.com/mrMiiao/mut_immut'

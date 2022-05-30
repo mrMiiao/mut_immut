@@ -8,3 +8,11 @@ pub fn change<T>(src: &T, to: T) {
         *(ptr as *mut T) = to;
     }
 }
+
+/// Getting &mut from &.
+pub fn get_mut<T>(src: &T) -> &mut T {
+    unsafe {
+        let mut ptr: usize = (src as *const T) as usize;
+        return &mut (*(ptr as *mut T))
+    }
+}
