@@ -6,4 +6,5 @@ authors = ['Miiao']
 repository = 'https://github.com/mrMiiao/mut_immut'
 keywords = ['memory', 'mut']
 readme = 'README.md'
+licence = 'MPL-2.0'
 description = 'Change value of an immutable variable.'
