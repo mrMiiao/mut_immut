@@ -1,0 +1,9 @@
+[package]
+name = 'mut_immut'
+version = '0.1.0'
+edition = '2021'
+authors = ['Miiao']
+repository = 'https://github.com/mrMiiao/mut_immut'
+keywords = ['memory', 'mut']
+readme = 'README.md'
+description = 'Change value of an immutable variable.'
